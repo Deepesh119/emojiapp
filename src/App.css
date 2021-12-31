@@ -1,0 +1,45 @@
+.Monty{
+   height: 400px;
+    
+    margin-top: -200px;
+}
+#Montytwo{
+    margin-left: 30%;
+    height: 100px;
+    width: 400px;
+}
+#button{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#Emoji{
+    margin-top: 0px;
+    margin-left: 30vw;
+}
+.buttonone{
+    margin-top: -45vh;
+    margin-left: 30vw;
+}
+ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 200px;
+    
+
+}
+ul li:hover{
+    background-color: gray;
+    transition: 2s;
+}
+.montypost{
+    margin-left: 50%;
+    margin-top: 15vh;
+    z-index: 3;
+}
+.montydivision{
+    height: 90px ;
+    width: 150px;
+    margin:1px solid black;
+}       
+
