@@ -46,7 +46,7 @@ const Search = () => {
            <Emoji  number={bar ? <input placeholder='search' id="Montyappself" onChange={(event)=>{GetEmoji(event.target.value)}}/>:null}/>
             </div>
             <div className='Emojisettle'>
-                {open.map((val)=>{
+                {open && open.map((val)=>{
                     return(
                         <>
                             <span onClick={()=>Settle(val)}>{val.character} </span>
