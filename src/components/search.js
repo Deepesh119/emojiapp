@@ -24,8 +24,8 @@ const Search = () => {
             return[search,...olditems]
         })   
     }
-    const GetEmoji =async()=>{
-      const response = await Getemoji('https://emoji-api.com/emojis?access_key=b0d24533775e2874956132908955b61b3763cf5f&search'+search)
+    const GetEmoji =async(_search)=>{
+      const response = await Getemoji(_search)
       setOpen(response.data)
       }
     const Settle=(val)=>{
